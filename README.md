@@ -122,8 +122,11 @@ It will look like:
 ![scotus](https://github.com/jeffakolb/Gnip-Trend-Detection/blob/master/example/scotus.png?raw=true) 
 
 Alternatively, use the following commands for Windows machine
+
 `type example\example.csv | trend_rebin.py -c example\config_jb.cfg > example\scotus_rebinned.csv`
+
 `type example\scotus_rebinned.csv | trend_analyze.py -c example\config_jb.cfg > example\scotus_analyzed.csv`
+
 `trend_plot_jb.py`
 
 This analysis is based on a point-by-point Poisson model, with the previous point 
